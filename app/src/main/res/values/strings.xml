@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Reporte ciudadano CO</string>
+
+    <string name="facebook_app_id">699730943795806</string>
+    <string name="fb_login_protocol_scheme">fb699730943795806</string>
+
+
 </resources>
