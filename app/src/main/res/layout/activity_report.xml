@@ -73,8 +73,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivPic" />
 
-    <TextView
-        android:id="@+id/tvDescDetail"
+    <EditText
+        android:id="@+id/etDescDetail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -100,10 +100,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvDescDetail" />
+        app:layout_constraintTop_toBottomOf="@+id/etDescDetail" />
 
-    <TextView
-        android:id="@+id/tvLocationDetail"
+    <EditText
+        android:id="@+id/etLocationDetail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
